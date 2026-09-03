@@ -41,7 +41,7 @@ const MODES = ["Topic Summary", "Article Summary", "Key Insights", "Recommendati
 function ResearchPage() {
   const run = useServerFn(runResearch);
   const [topic, setTopic] = useState("");
-  const [mode, setMode] = useState(MODES[0]);
+  const [mode, setMode] = useState<string>("Topic Summary");
   const [output, setOutput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
