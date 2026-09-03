@@ -1,426 +1,98 @@
-# AI Workplace Buddy
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS-style web application called AI Workplace Productivity Assistant.
-AI Workplace Productivity Assistant
+## Project Overview
 
-Project Overview
-
-AI Workplace Productivity Assistant is a modern, responsive web application designed to help professionals improve workplace productivity using artificial intelligence.
+AI Workplace Productivity Assistant is a modern, responsive web application that uses artificial intelligence to help professionals complete common workplace tasks more efficiently.
 
 The application provides three main AI-powered tools:
 
-Smart Email Generator – creates professional workplace emails based on the user's purpose, recipient, tone, and preferred length.
+- Smart Email Generator
+- AI Research Assistant
+- AI Workplace Chatbot
 
-AI Research Assistant – summarises topics or pasted articles and provides key insights, recommendations, and important considerations.
+The application is designed to be easy to use and does not require users to sign in or register.
 
-AI Workplace Chatbot – allows users to interact with an AI assistant for workplace questions, brainstorming, productivity advice, and general assistance.
+---
 
-The application is designed as a simple, accessible productivity tool that does not require users to create an account or sign in.
+## Features Implemented
 
-Features Implemented
+### Smart Email Generator
 
-Smart Email Generator
+- Generates professional workplace emails using AI.
+- Supports three tones:
+  - Formal
+  - Friendly
+  - Persuasive
+- Allows users to select email length.
+- Allows users to provide additional instructions.
+- Generates an email subject, greeting, body, and closing.
+- AI-generated responses can be edited.
+- Users can copy, regenerate, or clear the generated email.
 
-Generate professional workplace emails using AI.
+### AI Research Assistant
 
-Choose between Formal, Friendly, and Persuasive tones.
+- Allows users to research workplace-related topics using AI.
+- Summarises topics and pasted articles.
+- Provides key insights.
+- Provides recommendations.
+- Provides important considerations.
+- Allows users to select the level of detail.
+- AI-generated research results can be edited.
+- Users can copy, regenerate, or clear results.
 
-Choose email length: Short, Medium, or Detailed.
+### AI Workplace Chatbot
 
-Provide additional instructions to customise the email.
+- Provides an interactive AI workplace assistant.
+- Allows users to ask workplace-related questions.
+- Generates AI-powered responses.
+- Includes suggested workplace prompts.
+- Supports ongoing conversations.
+- Allows users to start a new chat.
+- Allows users to clear conversations.
+- Allows users to copy AI responses.
 
-Generate an email subject, greeting, body, and closing.
+### User Interface
 
-Edit AI-generated content before using it.
+- Modern SaaS-style dashboard.
+- Responsive design for desktop, tablet, and mobile.
+- Sidebar navigation.
+- Mobile-friendly navigation.
+- Blue and orange colour scheme.
+- Professional cards and layouts.
+- Input and output sections.
+- Loading states.
+- Error handling.
+- Editable AI-generated content.
+- No sign-in or registration required.
 
-Copy, regenerate, or clear generated content.
+### Responsible AI
 
-AI Research Assistant
+The application includes a Responsible AI disclaimer informing users that AI-generated content may contain errors or omissions.
 
-Research a topic using an AI-powered prompt.
+Users are encouraged to:
 
-Summarise pasted article content.
+- Review AI-generated content before using it.
+- Verify important information.
+- Avoid entering confidential or sensitive workplace information.
+- Use human judgement when making important decisions.
 
-Generate:
+---
 
-Summaries
+## Technologies and Tools Used
 
-Key insights
+- Lovable – used to design and build the application.
+- AI API / AI Integration – used to generate AI-powered responses.
+- HTML – used for the application structure.
+- CSS – used for styling and responsive design.
+- JavaScript / TypeScript – used for application functionality.
+- GitHub – used for source-code hosting and version control.
+- Markdown – used for project documentation.
 
-Recommendations
+---
 
-Important considerations
+## Setup Instructions
 
-Select the desired level of detail.
+### 1. Clone the Repository
 
-Edit, copy, regenerate, or clear AI-generated results.
-
-AI Workplace Chat
-
-Interactive AI workplace chatbot.
-
-Ask natural-language workplace questions.
-
-Use suggested prompts for common tasks.
-
-Continue conversations with the AI assistant.
-
-Start a new chat or clear the current conversation.
-
-Copy AI responses.
-
-User Experience
-
-Modern SaaS-style dashboard.
-
-Responsive desktop, tablet, and mobile design.
-
-Sidebar navigation with mobile-friendly menu.
-
-Blue and orange visual identity.
-
-Professional cards, buttons, icons, and layouts.
-
-Loading and error states.
-
-Helpful empty states.
-
-No sign-in or registration required.
-
-Responsible AI
-
-The application includes a Responsible AI notice reminding users that AI-generated information may contain errors and should be reviewed before being used for important professional, legal, financial, or other high-impact decisions.
-
-Users are also encouraged not to enter confidential or sensitive workplace information.
-
-Technologies and Tools Used
-
-Lovable – used to design and build the web application.
-
-AI integration/API – used to generate dynamic AI responses.
-
-HTML, CSS and JavaScript/TypeScript – used as part of the web application structure and functionality.
-
-Responsive web design – for compatibility across desktop, tablet, and mobile devices.
-
-GitHub – used for source-code version control and project documentation.
-
-Markdown – used for project documentation.
-
-Note: The exact framework and AI provider may depend on the configuration generated by Lovable.
-
-Setup Instructions
-
-1. Clone the Repository
-
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
-
-Replace YOUR_GITHUB_REPOSITORY_URL with the URL of this repository.
-
-2. Open the Project
-
-cd AI-Workplace-Productivity-Assistant
-
-3. Install Dependencies
-
-If the project contains a package.json file, install the required dependencies:
-
-npm install
-
-4. Configure the AI Integration
-
-The AI features require an appropriate AI API/integration to generate responses.
-
-If the project uses environment variables, create a .env file based on the project's environment configuration and add the required AI API key.
-
-Do not commit API keys or other secret credentials to GitHub.
-
-5. Start the Development Server
-
-npm run dev
-
-Open the local URL displayed in the terminal, usually:
-
-http://localhost:5173
-
-6. Build for Production
-
-To create a production build:
-
-npm run build
-
-The project can then be deployed using a suitable web hosting platform.
-
-Usage
-
-Open the application.
-
-No registration or sign-in is required.
-
-Select an AI tool from the dashboard or sidebar.
-
-Enter your information or question.
-
-Select the required options.
-
-Generate an AI response.
-
-Review and edit the generated content.
-
-Copy the final response for use.
-
-Responsible AI
-
-AI-generated responses should always be reviewed before being used in professional or important situations. The application is intended to assist users, not replace human judgement.
-
-Users should:
-
-Verify important information.
-
-Review AI-generated emails before sending them.
-
-Avoid entering confidential or sensitive information.
-
-Consider potential inaccuracies or bias in AI-generated content.
-
-Use human judgement for important decisions.
-
-Project Goal
-
-The goal of this project is to demonstrate how AI can be integrated into everyday workplace tasks to improve communication, research, productivity, and decision-making while encouraging responsible use of AI.
-Core Purpose
-
-The application helps professionals improve workplace productivity using AI through:
-
-Smart Email Generator
-
-AI Research Assistant
-
-AI Workplace Chatbot
-
-Important
-
-No sign-in or registration.
-
-Users must be able to open and use the application immediately.
-
-No backend, database, user accounts, authentication, or data storage.
-
-AI responses must be AI-generated, not hardcoded or fake responses.
-
-Keep the application simple and lightweight.
-
-Design
-
-Create a clean, modern and professional SaaS dashboard.
-
-Use:
-
-Blue as the primary colour
-
-Orange as the accent/action colour
-
-White/light grey backgrounds
-
-Dark professional text
-
-Modern cards, icons, rounded corners and clean spacing
-
-Responsive design for desktop, tablet and mobile
-
-Navigation
-
-Create a sidebar with:
-
-Dashboard
-
-Smart Email Generator
-
-AI Research Assistant
-
-AI Workplace Chat
-
-Settings
-
-Responsible AI
-
-On mobile, use a hamburger menu.
-
-Dashboard
-
-Show:
-AI Workplace Productivity Assistant
-
-Tagline:
-Work smarter. Communicate better. Get more done.
-
-Display three main feature cards:
-
-Smart Email Generator
-
-AI Research Assistant
-
-AI Workplace Chat
-
-Each card should have a short description and button to open the tool.
-
-Smart Email Generator
-
-Create an input section with:
-
-Email purpose
-
-Recipient
-
-Tone: Formal, Friendly, Persuasive
-
-Length: Short, Medium, Detailed
-
-Additional instructions
-
-Button:
-Generate Email
-
-The AI should generate:
-
-Subject
-
-Greeting
-
-Professional email body
-
-Closing
-
-The output must be editable.
-
-Include:
-
-Copy
-
-Regenerate
-
-Clear
-
-AI Research Assistant
-
-Allow users to enter:
-
-Research topic or article text
-
-Options:
-
-Topic Summary
-
-Article Summary
-
-Key Insights
-
-Recommendations
-
-Button:
-Research with AI
-
-Structure the AI response into:
-
-Summary
-
-Key Insights
-
-Recommendations
-
-Important Considerations
-
-The output must be editable and include Copy, Regenerate and Clear buttons.
-
-AI Workplace Chat
-
-Create a modern chatbot interface where users can ask workplace-related questions.
-
-Include suggested prompts such as:
-
-"Help me write a professional email."
-
-"Summarise this information."
-
-"How can I improve my productivity?"
-
-"Help me plan my workday."
-
-Allow natural conversation with AI-generated responses.
-
-Include:
-
-New Chat
-
-Clear Chat
-
-Copy Response
-
-AI Behaviour
-
-Use structured prompts for each AI feature.
-
-AI responses should be:
-
-Professional
-
-Clear
-
-Useful
-
-Relevant to the user's input
-
-Editable
-
-The AI should not invent facts, names, dates or information that the user has not provided. If information is uncertain, it should say so.
-
-Responsible AI
-
-Display this disclaimer on AI pages:
-
-Responsible AI Notice
-
-"AI-generated content may contain errors or omissions. Review and verify important information before using it for professional, legal, financial or other high-impact decisions."
-
-Also remind users not to enter confidential or sensitive workplace information.
-
-UX
-
-Include:
-
-Loading state: "AI is thinking..."
-
-Error state with "Try Again"
-
-Helpful empty states
-
-Responsive layouts
-
-Clear buttons and navigation
-
-Professional typography and spacing
-
-Do not add unnecessary features.
-
-The final application should feel like a polished, professional AI workplace productivity tool that anyone can use immediately without creating an account.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/15f1ea11-b7d5-46b8-9c47-ca9ee5454234).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
